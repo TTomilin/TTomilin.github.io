@@ -2,7 +2,7 @@ title: "Tristan Tomilin"
 description: "My research and projects"
 baseurl: "" # Leave this empty for GitHub Pages
 url: "https://ttomilin.github.io"
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 author:
   name: "Tristan Tomilin"
   email: "t.tomilin@tue.nl"
