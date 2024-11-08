@@ -59,20 +59,27 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+    <section id="hero" class="hero section d-flex flex-column justify-content-center">
 
       <img src="assets/img/hero-bg.jpg" alt="">
 
-      <div class="container" data-aos="zoom-out">
+      <div class="container aos-init aos-animate" data-aos="zoom-out">
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2>Tristan Tomilin</h2>
-            <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <p><span class="typed" data-typed-items="PhD Candidate, Engineer, Researcher"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://linkedin.com/in/tristan-tomilin"><i class="bi bi-linkedin"></i></a>
+
+              <!-- Google Scholar -->
+              <a href="https://scholar.google.pl/citations?user=CRzm2AMAAAAJ">
+<!--                <img alt="Google Scholar" src="assets/img/icons/scholar.png" width="20" height="20">-->
+              </a>
+
+              <!-- GitHub -->
+              <a href="https://github.com/TTomilin">
+<!--                <img alt="GitHub" src="assets/img/icons/github.png" width="20" height="20">-->
+              </a>
             </div>
           </div>
         </div>
@@ -131,21 +138,6 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>News</h2>
       </div><!-- End Section Title -->
-
-      <style>
-        .date {
-          font-weight: bold;
-          display: inline-block;
-          width: 100px; /* Adjust width as needed */
-        }
-        .news-item {
-          margin-bottom: 10px;
-        }
-        .news-icon {
-          margin-right: 8px;
-          color: #3498db; /* Customize the icon color */
-        }
-      </style>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="news-item">
@@ -266,11 +258,13 @@
               <h4>PhD in Deep Reinforcement Learning</h4>
               <h5>11/2021 - Present</h5>
               <p><em>Eindhoven University of Technology, Eindhoven, The Netherlands</em></p>
+              <p>Supervisor: Prof. Meng Fang</p>
             </div>
             <div class="resume-item">
               <h4>MSc in Data Science in Engineering</h4>
               <h5>09/2019 - 08/2021</h5>
               <p><em>Eindhoven University of Technology, Eindhoven, The Netherlands</em></p>
+              <p>Title: <em>GViZDoom: A Benchmark for Generalization of FPS Games in Deep Reinforcement Learning</em></p>
             </div>
             <div class="resume-item">
               <h4>BSc in Information Technology, Informatics</h4>
@@ -290,33 +284,36 @@
               <h4>PhD Researcher</h4>
               <h5>11/2021 - Present</h5>
               <p><em>Eindhoven University of Technology, Eindhoven, The Netherlands</em></p>
-              <ul>
-                <li>Created a 3D generalization benchmark with difficulty levels on top of the ViZDoom platform based on an FPS game with baseline evaluations using the Tianshou RL library.</li>
-                <li>Compared domain adaptation abilities of APPO between visual and environment entity modifications using the Sample-Factory RL library.</li>
-                <li>Combined pixel-based offline RL with image transformers and data augmentation in continuous control environments from the DeepMind Control Suite.</li>
-                <li>Designed a continual RL benchmark on top of ViZDoom with baseline evaluations of popular continual learning methods.</li>
-              </ul>
             </div>
 
             <div class="resume-item">
-              <h4>Developer / Machine Learning Engineer</h4>
+              <h4>Machine Learning Engineer</h4>
               <h5>04/2021 - 11/2021</h5>
               <p><em>Awaves B.V., Enschede, The Netherlands</em></p>
-              <ul>
-                <li>Developed a contextual music recommendation engine.</li>
-              </ul>
             </div>
 
             <div class="resume-item">
               <h4>Data Scientist</h4>
               <h5>02/2021 - 04/2021</h5>
               <p><em>OpenML, Eindhoven, The Netherlands</em></p>
-              <ul>
-                <li>Refined the quality and integrity of existing datasets.</li>
-                <li>Discovered, preprocessed, and imported new datasets to the OpenML machine learning platform.</li>
-              </ul>
             </div>
 
+            <div class="resume-item">
+              <h4>Full-Stack Developer</h4>
+              <h5>04/2019 - 09/2019</h5>
+              <p><em>Nortal AS, Tallinn, Estonia</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>10/2017 - 04/2019</h5>
+              <p><em>Ardera OÜ, Tallinn, Estonia</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5>06/2015 - 11/2018</h5>
+              <p><em>SEB Pank AS, Tallinn, Estonia</em></p>
           </div><!-- End Right column -->
 
         </div><!-- End Row -->
@@ -418,14 +415,7 @@
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <span>Copyright</span> <strong class="px-1 sitename">Tristan Tomilin</strong> <span>All Rights Reserved</span>
         </div>
       </div>
     </div>
