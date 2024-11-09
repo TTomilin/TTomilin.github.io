@@ -525,7 +525,7 @@ section,
   justify-content: center;
 }
 
-.home img {
+.home .background {
   position: absolute;
   inset: 0;
   display: block;
