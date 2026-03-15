@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Tristan Tomilin"
-description: "My research and projects"
+description: "PhD Candidate at Eindhoven University of Technology researching Reinforcement Learning. Published at ICLR, NeurIPS, ICML, AAMAS, and AAAI."
 baseurl: "" # Leave this empty for GitHub Pages
 url: "https://ttomilin.github.io"
 theme: jekyll-theme-minimal
